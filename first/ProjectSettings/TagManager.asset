@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Obstacle
   - Coin
+  - slowBonus
+  - speedBonus
+  - shildCoin
   layers:
   - Default
   - TransparentFX

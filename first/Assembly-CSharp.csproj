@@ -57,14 +57,18 @@
     <Compile Include="Assets\Scripts\CoinAnimation.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\TileGenerator.cs" />
+    <Compile Include="Assets\Scripts\FpsShow.cs" />
+    <Compile Include="Assets\Scripts\CoinCollector.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\ObstacleRotation.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
+    <Compile Include="Assets\Scripts\SlowBonus.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\EndTrigger.cs" />
     <Compile Include="Assets\Scripts\LevelComplete.cs" />
-    <Compile Include="Assets\CoinCollector.cs" />
+    <Compile Include="Assets\Scripts\SpeedBonus.cs" />
+    <Compile Include="Assets\Scripts\ShildBonus.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
