@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   t: 0
-  Amp: 0.1
+  Amp: 0.05
   Freq: 2
   Offset: 0
   StartPos: {x: 0, y: 0, z: 0}
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   t: 0
-  Amp: 0.1
+  Amp: 0.05
   Freq: 2
   Offset: 0
   StartPos: {x: 0, y: 0, z: 0}
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   t: 0
-  Amp: 0.1
+  Amp: 0.05
   Freq: 2
   Offset: 0
   StartPos: {x: 0, y: 0, z: 0}
@@ -260,6 +260,10 @@ PrefabInstance:
     - target: {fileID: 6573375485439090668, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
       propertyPath: m_Name
       value: Obstacle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573375485439090670, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
@@ -335,6 +339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 6573375485439090670, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
 --- !u!4 &6194764780858802888 stripped
@@ -409,6 +417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6573375485439090670, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
 --- !u!4 &9174565703673123763 stripped
@@ -445,7 +457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1add452d83e28c4aab2a0f1e757a46f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1add452d83e28c4aab2a0f1e757a46f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -570,6 +582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6573375485439090670, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
 --- !u!4 &7808029512937192369 stripped
@@ -643,6 +659,10 @@ PrefabInstance:
     - target: {fileID: 6573375485439090668, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
       propertyPath: m_Name
       value: Obstacle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573375485439090670, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
@@ -718,6 +738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6573375485439090670, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
 --- !u!4 &987842680047165490 stripped
@@ -754,7 +778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1add452d83e28c4aab2a0f1e757a46f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1add452d83e28c4aab2a0f1e757a46f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -837,7 +861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1add452d83e28c4aab2a0f1e757a46f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1add452d83e28c4aab2a0f1e757a46f, type: 3}
       propertyPath: m_LocalPosition.z

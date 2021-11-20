@@ -103,6 +103,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2156070764673534090}
     m_Modifications:
+    - target: {fileID: 6573375485439090665, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6573375485439090667, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -162,6 +166,10 @@ PrefabInstance:
     - target: {fileID: 6573375485439090668, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
       propertyPath: m_Name
       value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573375485439090670, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}

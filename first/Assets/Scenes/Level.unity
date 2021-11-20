@@ -359,6 +359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 332977911477743995}
+  fp: {fileID: 0}
 --- !u!114 &432477397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,6 +385,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3664b582413078b40adff82ec590b9c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bc: {fileID: 6573375485439090670, guid: 9d4b7b6af10d9f2429675161ec2cf170, type: 3}
+  player: {fileID: 903201683}
+  movement: {fileID: 332977911477743995}
 --- !u!114 &432477402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1202,6 +1206,14 @@ PrefabInstance:
       propertyPath: GameManager
       value: 
       objectReference: {fileID: 401021579}
+    - target: {fileID: 332977910719410926, guid: 64959449c95ebe04aade8b066544b0ce, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 332977910719410927, guid: 64959449c95ebe04aade8b066544b0ce, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 903201683}
     - target: {fileID: 332977910719410927, guid: 64959449c95ebe04aade8b066544b0ce, type: 3}
       propertyPath: speedText
       value: 

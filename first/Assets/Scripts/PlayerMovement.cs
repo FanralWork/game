@@ -5,6 +5,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
     public Text speedText;
+    public Transform player;
+    public bool CanJump = true;
 
     public const float minforwardSpeed = 1000f;
     public const float maxforwardSpeed = 3000f;
@@ -13,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float forwardForce = 2000f;
     public float sidewayForce = 30f;
+    public float upwayForce = 1f;
 
     public float MinforwardSpeed
     {
@@ -49,6 +52,15 @@ public class PlayerMovement : MonoBehaviour
         {
             FindObjectOfType<GameManager>().EndGame();
         }
+
+        if (Input.GetKey("space") && player.position.y <= 1)
+        {
+            rb.AddForce(0, upwayForce * Time.deltaTime, 0, ForceMode.VelocityChange);
+            System.Threading.Tasks.Task.Delay(1000);
+            Debug.Log("Jumping");
+
+        }
+
 
         speedText.text = forwardForce.ToString("0");
     }
