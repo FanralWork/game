@@ -5,7 +5,8 @@ using UnityEngine;
 public class FpsShow : MonoBehaviour {
  
     public static float fps;
- 
+    public PlayerMovement movement;
+
     void OnGUI()
     {
         fps = 1.0f / Time.deltaTime;
